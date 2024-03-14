@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drugi termin - JORIS</title>
+    </head>
+        <body>
+            <form method="post" action = "">
+                <label>Ime:</label>
+                <input type="text"/>
+                <br>
+                <label>Lozinka:</label>
+                <input type="password"/>
+               <br>
+               <label>Pol:</label>
+                <input name = "Pol"type="radio" value="Men"/>
+                <label>Muski</label>
+                <input  name ="Pol" type="radio" value="Female"/>
+                <label>Zenski</label>
+                <br>
+                <label>Stariji od 18?:</label>
+                <input type="checkbox"/>
+                <br>
+                <label>Broj godina</label>
+                <input type="number" min="10" max="100"/>
+                <br>
+                <label>Ucitajte fajl:</label>
+                <input type="file"/>
+                <br>
+                <label>Datum rodjenja:</label>
+                <input type="date">
+                <br>
+                <label></label>
+                <input type="hidden"value="1"/>                
+                <br>
+                <input type="button" value="Dugme"/>
+                <textarea></textarea>
+                <br>
+                <select name = "Odabrana-vrednost">
+                    <option>Opcija 1</option>
+                    <option>Opcija 2</option>
+                    <option>Opcija 3</option>
+                </select>
+                <button type="submit">Sacuvaj</button>
+            </form>
+            
+            <div style="background-color: black; color:white;">
+                <h1>Fon</h1>
+                <h2>Katedra IS</h2>
+                <p>JORIS</p>
+            </div>
+            <ul>
+                <li style="color: red; font-size:20px;">Stavka1</li>
+                <li>Stavka2</li>
+                <li>Stavka3</li>
+            </ul>
+
+            <ol>
+                <li>Stavka1</li>
+                <li>Stavka2</li>
+                <li>Stavka3</li>
+            </ol>
+
+            <dl>
+                <dt>Ime</dt>
+                <dd>Aleksa</dd>
+
+                <dt>Prezime</dt>
+                <dd>Nikolic</dd>
+
+            </dl>
+
+
+            <table border="1" width="500" cellpaddding="15" cellspacing="10">
+                <thead>
+                    <tr></tr>
+                    <th>Ime</th>
+                    <th>Prezime</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Aleksa</td>
+                        <td>Nikolic</td>
+                    </tr>
+                    
+                </tbody>
+
+            </table>
+        
+        <a href="https://fon.bg.ac.rs/" title = "Zvanicni sajt fona" target="_blank">Fon</a>
+        <img style ="width: 100px; height: 100px;"src="public/img/Fon.png"/>   
+        
+        
+        <h1>Naslov1</h1>
+        <h2>Naslov2</h2>
+        <h3>Naslov3</h3>
+        <h4>Naslov4</h4>
+        <h5>Naslov5</h5>
+        <h6>Naslov6</h6>
+
+        <p>
+            Katedra za informacione sisteme
+            Fakultet organizacionih nauka
+        </p>
+
+        <b>Predavanje iz predmeta <i>'JORIS'</i></b>
+        <br>
+        <strong>Fakultet organizacionih nauka</strong>
+           <br>
+        <small>Jove Ilica 154</small>
+    
+    
+        </body>
+
+
+
+</html>
